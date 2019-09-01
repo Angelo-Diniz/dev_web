@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+#page_Conteiner {
+	width: 100%;
+	margin: auto;
+}
+
+.card {
+	margin: 3px;
+	position: relative;
+	float: left;
+	height: 550px;
+	text-align: center;
+	align-items: center;
+}
+
+.card h5 {
+	text-align: center;
+}
+
+.card p {
+	font-weight: bold;
+}
+
+.card img {
+	height: 300px;
+}
+
+.card button {
+	margin: 3px;
+}
+
+#verReceita {
+	align-items: center;
+	width: 80%;	
+}
+
+#conteudoHome {
+	background-color: wheat;
+}
+
+#conteudo{
+
+	margin: 0px;
+}
+
+.logo {
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+
+.logo img {
+	height: auto;
+	max-height: 180px;
+	max-width: 100%	;
+}
+
+.menu {
+	float: left;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+.caminhoPao {
+	opacity: 0.7;
+}
+
+.caminhoPao ul {
+
+	color: blue;
+}
+
+.breadcrumb {
+	opacity: 0.7;
+}
+
+.imagem img{
+	height: auto;
+	max-width: 100%	;
+	margin: 10px;
+	margin-top: -10px;
+	max-height: 20%;
+}
+
+.descricao {
+	margin: 10px;
+}
+
+.rodape {
+	margin-top: 100px;
+	margin-bottom: 10px;
+
+}
+.rodape p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	font-size: 15px;
+}

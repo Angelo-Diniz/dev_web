@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FILMES YOUTUBE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		
+		.btDelete{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			z-index: 1000;
+		}
+		.card_Video{
+			border-style: solid;
+  			border-color: rgba(29, 29, 34, 0.26);
+		}
+		.container p {
+			text-align: center;
+		}
+		
+	</style>
+	
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="row" id="nomePagina">
+			<h3>Inserir Filme</h3>
+		</div>
+		<hr>
+		<div class="form-row">
+			<div class="form-group col-md-5 col-sm-12">
+				<label for="nomeFilme">Nome do Filme</label>
+				<input type="text" class="form-control" id="nomeFilme" required>
+			</div>
+			<div class="form-group col-md-5 col-sm-12">
+					<label for="idYoutube">ID do Yotube</label>
+					<input type="text" class="form-control" id="idYoutube" maxlength="11" required>
+			</div>
+			<button type="button" id="btnEnviar" class="btn btn-primary">enviar</button>
+		</div>
+		<hr>
+		
+		<div class="row" id="conteudoVideos">
+				<h3>Carragando!</h3>
+			</div>
+		<div class="form-row" id="conteudoVideos">
+			<!-- <div class="form-group col-md-6 col-sm-12">
+				<div id="videoPlay" class="embed-responsive embed-responsive-16by9">
+					<button class="btn btn-danger btDelete" data-id="">X</button>
+					<iframe class="embed-responsive-item" src="..." allowfullscreen></iframe>
+				</div>
+				<label for="nomeDoFilme" id="nomeDoFilme">Nome do filme</label>
+				<textarea class="form-control" rows="5" id="comentario" placeholder="COMENTARIO"></textarea>
+				<button type="button" data-id="" class="btn btn-primary">enviar</button>
+			</div> -->
+		</div>
+		<hr>
+		<hr>
+		<p>DIREITOS RESERVADOS A ANGELO DINIZ - MATRICULA 572693</p>
+</div>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<script src="acoes.js"></script>
+
+
+
+</body>
+	
+</html>

@@ -1,0 +1,16 @@
+CREATE TABLE `churrasco` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `produto` varchar(300) DEFAULT NULL,
+  `url_img` varchar(300) DEFAULT NULL,
+  `quant` int(5) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+
+
+INSERT INTO `churrasco` (`id`, `produto`, `url_img`, `quant`)
+VALUES
+	(1, 'Picanha Argentina', 'img/1.jpg', 17),
+	(2, 'Picanha Suina', 'img/1.jpg', 5),
+	(3, 'Fraldinha', 'img/1.jpg', 3),
+	(4, 'Pão de Alho', 'img/4.jpg', 2),
+	(7, 'Cerva Gelada', 'img/2.jpg', 0);
